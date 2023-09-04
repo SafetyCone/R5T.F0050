@@ -11,7 +11,7 @@ namespace R5T.F0050
 	{
 		public string AllSolutionFiles()
         {
-			var searchPattern = this.AllFilesWithExtension(
+			var searchPattern = this.Files_WithExtension(
 				Instances.FileExtensions.SolutionFile);
 
 			return searchPattern;
