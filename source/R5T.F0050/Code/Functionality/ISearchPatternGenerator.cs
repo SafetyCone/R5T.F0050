@@ -7,9 +7,9 @@ namespace R5T.F0050
 {
 	[FunctionalityMarker]
 	public partial interface ISearchPatternGenerator : IFunctionalityMarker,
-		F0000.ISearchPatternGenerator
+		L0066.ISearchPatternGenerator
 	{
-		public string AllSolutionFiles()
+		public string For_SolutionFiles()
         {
 			var searchPattern = this.Files_WithExtension(
 				Instances.FileExtensions.SolutionFile);

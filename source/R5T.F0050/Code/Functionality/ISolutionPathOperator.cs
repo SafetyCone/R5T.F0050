@@ -13,10 +13,10 @@ namespace R5T.F0050
 		/// NOTE: Does <i>not</i> check if the file exists, or if the file contents meet the requirements of being a solution file. Merely checks the path.
 		/// To check if the file contents meet the requirements of being a solution file, use a solution file operator (for example, F5T.F0024.ISolutionFileOperator.IsSolutionFile()).
 		/// </summary>
-		public bool IsSolutionFilePath(
+		public bool Is_SolutionFilePath(
 			string possibleSolutionFilePath)
 		{
-			var isSolutionFilePath = Instances.PathOperator.HasFileExtension(
+			var isSolutionFilePath = Instances.PathOperator.Has_FileExtension(
 				possibleSolutionFilePath,
 				Instances.FileExtensions.SolutionFile);
 
