@@ -12,7 +12,7 @@ namespace R5T.F0050
 		public string For_SolutionFiles()
         {
 			var searchPattern = this.Files_WithExtension(
-				Instances.FileExtensions.SolutionFile);
+				Instances.FileExtensions.Solution_File);
 
 			return searchPattern;
 		}

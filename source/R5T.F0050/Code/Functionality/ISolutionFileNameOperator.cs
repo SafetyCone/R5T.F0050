@@ -17,7 +17,7 @@ namespace R5T.F0050
 		public string Get_SolutionFileName_FromSolutionName(string solutionName)
 		{
 			var solutionFileNameStem = this.Get_SolutionFileNameStem_FromSolutionName(solutionName);
-			var solutionFileExtension = Instances.FileExtensions.SolutionFile;
+			var solutionFileExtension = Instances.FileExtensions.Solution_File;
 
 			var output = Instances.FileExtensionOperator.Get_FileName(solutionFileNameStem, solutionFileExtension);
 			return output;
